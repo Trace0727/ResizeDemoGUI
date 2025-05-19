@@ -26,6 +26,21 @@ Implements a graphical user interface using Swing:
 
 ---
 
+## How to Run
+
+### From an IDE
+1. Open the project folder.
+2. Navigate to `ResizeGUI.java`.
+3. Click **Run** on the main method to launch the GUI.
+
+### From the command line
+```bash
+javac src/ResizeGUI.java -d out
+java -cp out ResizeGUI
+```
+
+---
+
 ## Future Enhancements
 - Combine width and height inputs into a single submission for convenience.
 - Add input validation to prevent non-numeric entries or extreme values.
